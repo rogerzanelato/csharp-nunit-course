@@ -1,0 +1,8 @@
+C:\Users\roger.zanelato\Downloads\nunit-3-dotnet-testing-introduction\02\demos\before\01TestProject\Loans\bin\Debug\netcoreapp2.1\Loans.deps.json
+C:\Users\roger.zanelato\Downloads\nunit-3-dotnet-testing-introduction\02\demos\before\01TestProject\Loans\bin\Debug\netcoreapp2.1\Loans.dll
+C:\Users\roger.zanelato\Downloads\nunit-3-dotnet-testing-introduction\02\demos\before\01TestProject\Loans\bin\Debug\netcoreapp2.1\Loans.pdb
+C:\Users\roger.zanelato\Downloads\nunit-3-dotnet-testing-introduction\02\demos\before\01TestProject\Loans\obj\Debug\netcoreapp2.1\Loans.csproj.CoreCompileInputs.cache
+C:\Users\roger.zanelato\Downloads\nunit-3-dotnet-testing-introduction\02\demos\before\01TestProject\Loans\obj\Debug\netcoreapp2.1\Loans.AssemblyInfoInputs.cache
+C:\Users\roger.zanelato\Downloads\nunit-3-dotnet-testing-introduction\02\demos\before\01TestProject\Loans\obj\Debug\netcoreapp2.1\Loans.AssemblyInfo.cs
+C:\Users\roger.zanelato\Downloads\nunit-3-dotnet-testing-introduction\02\demos\before\01TestProject\Loans\obj\Debug\netcoreapp2.1\Loans.dll
+C:\Users\roger.zanelato\Downloads\nunit-3-dotnet-testing-introduction\02\demos\before\01TestProject\Loans\obj\Debug\netcoreapp2.1\Loans.pdb
