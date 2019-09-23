@@ -1,4 +1,5 @@
-﻿using Loans.Domain.Applications.Values;
+﻿using FluentAssertions;
+using Loans.Domain.Applications.Values;
 using NUnit.Framework;
 using System;
 
@@ -9,9 +10,11 @@ namespace Loans.Tests
         [Test]        
         public void ReturnTermInMonths()
         {
-            var sut = new LoanTerm(1);
+            var loanTerm = new LoanTerm(1);
 
-            Assert.That(sut.ToMonths(), Is.EqualTo(12));
+            //Assert.That(sut.ToMonths(), Is.EqualTo(12));
+
+            loanTerm.ToMonths().Should().Be(12, because: "there are 12 months in a year");
         }
 
 
@@ -47,22 +50,29 @@ namespace Loans.Tests
         [Test]
         public void NotAllowZeroYears()
         {
-            Assert.That(() => new LoanTerm(0), 
-                        Throws.TypeOf<ArgumentOutOfRangeException>()
-                              .With
-                              .Matches<ArgumentOutOfRangeException>(
-                                       ex => ex.ParamName == "years"));
+            //Assert.That(() => new LoanTerm(0), 
+            //            Throws.TypeOf<ArgumentOutOfRangeException>()
+            //                  .With
+            //                  .Matches<ArgumentOutOfRangeException>(
+            //                           ex => ex.ParamName == "years"));
+
+            Action act = () => new LoanTerm(0);
+
+            act.Should().Throw<ArgumentOutOfRangeException>()
+                .And
+                .ParamName.Should().Be("years");
         }
 
 
         //[Test]
-        //public void FloatingPointExample()
-        //{
-        //    double pie = 1;
-        //    double people = 3;
-        //    double sliceOfPie = pie / people;
+        public void FloatingPointExample()
+        {
+            double pie = 1;
+            double people = 3;
+            double sliceOfPie = pie / people;
 
-        //    sliceOfPie.Should().Be(0.33);
-        //}
+            //sliceOfPie.Should().Be(0.33); // Falha, por causa das variações do ponto flutuante
+            sliceOfPie.Should().BeApproximately(0.33, 0.004);
+        }
     }
 }

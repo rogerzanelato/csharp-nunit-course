@@ -2,6 +2,10 @@
 
 [Introduction to .NET Testing with NUnit 3](https://app.pluralsight.com/library/courses/nunit-3-dotnet-testing-introduction/exercise-files)
 
+[Improving Unit Tests with Fluent Assertions](https://app.pluralsight.com/library/courses/fluent-assertions-improving-unit-tests/exercise-files)
+
+[Fluent Assertions Documentação](https://fluentassertions.com/)
+
 ## How it Works
 `NUnit` irá criar uma instância da classe de teste para cada Classe, ao contrário do `XUnit` que irá criar uma instância de teste para cada método a ser testado.
 

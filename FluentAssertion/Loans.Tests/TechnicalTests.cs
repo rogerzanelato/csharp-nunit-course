@@ -40,6 +40,7 @@ namespace Loans.Tests
         [Test]
         public void NamespaceContainsOnlyValueObjects()
         {
+            // valida que tods as classes na pastas domain/applications/values derivam de uma classe ValueObject
             Assembly productionCodeAssembly = typeof(LoanAmount).Assembly;
 
             IEnumerable<Type> nonValueObjectTypesInNameSpace = AllTypes.From(productionCodeAssembly)

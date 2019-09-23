@@ -4,6 +4,8 @@ using NUnit.Framework;
 using Moq;
 using Moq.Protected;
 using Loans.Domain.Applications.Values;
+using FluentAssertions;
+using FluentAssertions.Extensions;
 
 namespace Loans.Tests
 {
@@ -252,8 +254,21 @@ namespace Loans.Tests
 
             sut.Process(application);
 
-            Assert.That(application.GetIsAccepted(), Is.True);
-            Assert.That(mockIdentityVerifier.Object.LastCheckTime, Is.EqualTo(expectedTime));
+            //Assert.That(application.GetIsAccepted(), Is.True);
+            application.GetIsAccepted().Should().BeTrue();
+
+            //Assert.That(mockIdentityVerifier.Object.LastCheckTime, Is.EqualTo(expectedTime));
+            mockIdentityVerifier.Object.LastCheckTime.Should().Be(expectedTime);
+
+            mockIdentityVerifier.Object.LastCheckTime.Should().BeOnOrAfter(expectedTime);
+            mockIdentityVerifier.Object.LastCheckTime.Should().BeOnOrBefore(expectedTime);
+
+            mockIdentityVerifier.Object.LastCheckTime.Should().Be(1.January(2000));
+            mockIdentityVerifier.Object.LastCheckTime.Should().Be(1.January(2000).At(0, 0));
+            mockIdentityVerifier.Object.LastCheckTime.Should().Be(1.Days().Before(2.January(2000)));
+
+            mockIdentityVerifier.Object.LastCheckTime.Should().HaveYear(2000);
+            mockIdentityVerifier.Object.LastCheckTime.Should().HaveDay(1);
         }
 
 

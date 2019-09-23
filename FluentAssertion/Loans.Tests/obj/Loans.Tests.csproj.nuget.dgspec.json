@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projetos\\Treinamentos\\TestesUnitario\\FluentAssertion\\Loans.Tests\\Loans.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Projetos\\Treinamentos\\TestesUnitario\\FluentAssertion\\Loans.Tests\\Loans.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Treinamentos\\TestesUnitario\\FluentAssertion\\Loans.Tests\\Loans.Tests.csproj",
+        "projectName": "Loans.Tests",
+        "projectPath": "C:\\Projetos\\Treinamentos\\TestesUnitario\\FluentAssertion\\Loans.Tests\\Loans.Tests.csproj",
+        "packagesPath": "C:\\Users\\roger.zanelato\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Treinamentos\\TestesUnitario\\FluentAssertion\\Loans.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\roger.zanelato\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Projetos\\Treinamentos\\TestesUnitario\\FluentAssertion\\Loans\\Loans.csproj": {
+                "projectPath": "C:\\Projetos\\Treinamentos\\TestesUnitario\\FluentAssertion\\Loans\\Loans.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.10.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Projetos\\Treinamentos\\TestesUnitario\\FluentAssertion\\Loans\\Loans.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Treinamentos\\TestesUnitario\\FluentAssertion\\Loans\\Loans.csproj",
+        "projectName": "Loans",
+        "projectPath": "C:\\Projetos\\Treinamentos\\TestesUnitario\\FluentAssertion\\Loans\\Loans.csproj",
+        "packagesPath": "C:\\Users\\roger.zanelato\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Treinamentos\\TestesUnitario\\FluentAssertion\\Loans\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\roger.zanelato\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

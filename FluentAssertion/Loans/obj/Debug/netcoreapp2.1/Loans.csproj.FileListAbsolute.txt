@@ -1,0 +1,9 @@
+C:\Projetos\Treinamentos\TestesUnitario\FluentAssertion\Loans\bin\Debug\netcoreapp2.1\Loans.deps.json
+C:\Projetos\Treinamentos\TestesUnitario\FluentAssertion\Loans\bin\Debug\netcoreapp2.1\Loans.dll
+C:\Projetos\Treinamentos\TestesUnitario\FluentAssertion\Loans\bin\Debug\netcoreapp2.1\Loans.pdb
+C:\Projetos\Treinamentos\TestesUnitario\FluentAssertion\Loans\obj\Debug\netcoreapp2.1\Loans.csprojAssemblyReference.cache
+C:\Projetos\Treinamentos\TestesUnitario\FluentAssertion\Loans\obj\Debug\netcoreapp2.1\Loans.csproj.CoreCompileInputs.cache
+C:\Projetos\Treinamentos\TestesUnitario\FluentAssertion\Loans\obj\Debug\netcoreapp2.1\Loans.AssemblyInfoInputs.cache
+C:\Projetos\Treinamentos\TestesUnitario\FluentAssertion\Loans\obj\Debug\netcoreapp2.1\Loans.AssemblyInfo.cs
+C:\Projetos\Treinamentos\TestesUnitario\FluentAssertion\Loans\obj\Debug\netcoreapp2.1\Loans.dll
+C:\Projetos\Treinamentos\TestesUnitario\FluentAssertion\Loans\obj\Debug\netcoreapp2.1\Loans.pdb
