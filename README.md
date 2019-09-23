@@ -71,3 +71,11 @@ Um teste pode ter múltiplos asserts, mas apenas, se todas as asserts é para te
 ## Mensagens
 
 Você pode definir mensagens de erro para testes cujo funcionamento seja um pouco "obscuro", porém, no geral, o próprio nome deve deixar claro o que está sendo testado.
+
+## Extras
+
+É extramemente fácil criar Mocks com a lib `NSubstitute`.
+
+[Documentação] (https://nsubstitute.github.io/)
+
+[Video] (https://www.youtube.com/watch?v=aTx8_79QkDE)
